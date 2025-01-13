@@ -41,7 +41,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/terranova-v2.0.0.git
+   git clone https://github.com/SlytherinEC/terranova-v2.0.0.git
    cd terranova-v2.0.0
 
 2. **Instalar las dependencias:**
@@ -59,7 +59,6 @@ La aplicación estará disponible en: http://localhost:3000
 
 ## Estructura del Proyecto
     
-    ```bash
     terranova-v2.0.0/
     ├── public/               # Archivos públicos (index.html, favicon, etc.)
     ├── src/                  # Código fuente de la aplicación
@@ -76,29 +75,33 @@ La aplicación estará disponible en: http://localhost:3000
 
 En el directorio del proyecto, puedes ejecutar los siguientes comandos:
 
+- Iniciar el servidor de desarrollo:
+
     ```bash
     npm start
 
-Inicia el servidor de desarrollo. Abre http://localhost:3000 en tu navegador para ver la aplicación en vivo.
+- Inicia el servidor de desarrollo. Abre http://localhost:3000 en tu navegador para ver la aplicación en vivo.
 
     ```bash
     npm run build
 
-Construye la aplicación para producción. Los archivos se generarán en la carpeta build.
+- Construye la aplicación para producción. Los archivos se generarán en la carpeta build.
 
     ```bash
     npm test
-Ejecuta las pruebas unitarias definidas en el proyecto.
 
-```bash
-npm run eject
+- Ejecuta las pruebas unitarias definidas en el proyecto.
 
-Expone la configuración de React. Nota: Esta acción es irreversible.
+    ```bash
+    npm run eject
+
+- Nota: Este comando solo debe usarse si necesitas personalizar la configuración de Webpack, Babel u otros ajustes avanzados.
 
 ---
 
 ## Tecnologías Utilizadas
-- React: Biblioteca para construir interfaces de usuario.
+
+- React 19: Biblioteca para construir interfaces de usuario. [Documentación oficial](https://reactjs.org/)
 - React Scripts: Herramientas y configuración para proyectos React.
 - Web Vitals: Para medir el rendimiento y la experiencia del usuario.
 
@@ -109,6 +112,8 @@ Expone la configuración de React. Nota: Esta acción es irreversible.
 ¡Las contribuciones son bienvenidas! Si deseas colaborar, sigue estos pasos:
 
 1. Haz un fork del repositorio.
+    ```bash
+    git fork https://github.com/SlytherinEC/terranova-v2.0.0.git
 
 2. Crea una nueva rama para tu funcionalidad:
 
