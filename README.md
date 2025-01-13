@@ -80,18 +80,18 @@ En el directorio del proyecto, puedes ejecutar los siguientes comandos:
     ```bash
     npm start
 
-- Inicia el servidor de desarrollo. Abre http://localhost:3000 en tu navegador para ver la aplicación en vivo.
+Inicia el servidor de desarrollo. Abre http://localhost:3000 en tu navegador para ver la aplicación en vivo.
 
+- Construye la aplicación para producción. Los archivos se generarán en la carpeta build.
     ```bash
     npm run build
 
-- Construye la aplicación para producción. Los archivos se generarán en la carpeta build.
 
+- Ejecuta las pruebas unitarias definidas en el proyecto.
     ```bash
     npm test
 
-- Ejecuta las pruebas unitarias definidas en el proyecto.
-
+- Exponer la configuración de React (irreversible):
     ```bash
     npm run eject
 
